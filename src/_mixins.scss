@@ -1,0 +1,10 @@
+@import 'variables';
+
+@mixin timing{
+    animation-timing-function: ease-out;
+}
+@mixin cuadrado ($fondo, $anima_name, $anima_dura){
+    background-color: $fondo;
+    animation-name: $anima_name;
+    animation-duration: $anima_dura;
+}

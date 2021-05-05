@@ -1,0 +1,30 @@
+@import 'variables';
+
+.strips {
+    height: $height;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    .strip{
+        position: relative;
+        width: 19.9vw;
+        margin: 0.1vw;
+        height: $height;
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        .strip_content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            height: $height;
+            width: 100%;
+            text-align: center;    
+        }
+    }
+  }
